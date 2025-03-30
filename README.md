@@ -1,12 +1,9 @@
-# React + Vite
+This project utilises Machine Learning concepts to make predictions on whether a piece of news is fake or real, after being trained upon a pre-defined dataset of flagged news articles ( "train.csv" ) .
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The python code for the ML part lies within "prakhar_ml_project_fake_news_finall.py"
 
-Currently, two official plugins are available:
+Pressing the "Predict a news" button on the website leads to it going through the dataset to find a news article, predicting whether its fake, and then checking through the dataset to confirm whether its prediction is accurate or not. The model boasts a 97% accuracy rate :) Originally done on Google Colab
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
